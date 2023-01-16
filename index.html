@@ -4,19 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CSS Intro</title>
     <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li class="d-inline">
+            <a class="nav-link" href="/">Home</a>
           </li>
-          <li>
+          <li class="d-inline">
             <a href="/about">About</a>
           </li>
-          <li>
+          <li class="d-inline">
             <a href="/projects">Projects</a>
           </li>
         </ul>
@@ -25,8 +26,10 @@
 
     <main>
       <section>
-        <h1>Main Heading</h1>
-        <img src="./images/example.png" alt="Author Headshot" />
+        <h1 class="title">Main Heading</h1>
+        <img id="avatar" src="https://images.unsplash.com/photo-
+1525877442103-5ddb2089b2bb?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" alt="Author Headshot" />
         <p>Author.. Bio...</p>
       </section>
       <article>
